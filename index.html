@@ -161,6 +161,10 @@
   color: #ffcc00;
   font-weight: bold;
 }
+.membership {
+  border: 1px solid #00e5ff;
+  box-shadow: 0 0 15px rgba(0,229,255,0.3);
+}
 
   </style>
 
@@ -260,6 +264,33 @@
   By ordering, you agree to our Terms & Conditions.
 </p>
 
+</div>
+
+<div class="card membership">
+  <h2>💳 Membership Card</h2>
+
+  <p>
+    Ongoing access for dedicated supporters.
+    Stay connected and receive exclusive updates every month.
+  </p>
+
+  <ul style="margin-top:12px; font-size:14px; color:#ddd; line-height:1.6;">
+    <li>✔ Digital Membership Card</li>
+    <li>✔ Monthly exclusive photo drops</li>
+    <li>✔ Early announcements</li>
+    <li>✔ Members-only Telegram access</li>
+  </ul>
+
+  <input id="membership-name" placeholder="Your Name">
+  <input id="membership-email" placeholder="Your Email">
+
+  <button class="btn" onclick="order('membership')">
+    Join Membership
+  </button>
+
+  <p style="font-size:12px; color:#aaa; margin-top:8px;">
+    By joining, you agree to our Terms & Conditions.
+  </p>
 </div>
 
 <div class="card vip">
